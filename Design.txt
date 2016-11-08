@@ -1,0 +1,41 @@
+Game name: Mega Invaders
+Mega Invaders is a revival of the classic top-down shooter "Space Invaders".
+38 years ago, humanity invented laser cannons to drive off wave after wave of
+approaching alien hordes. Now, the aliens are back, and stronger than before.
+
+In order to save humanity, you must enter your spaceship and fight off the approaching
+invaders. You will move your vehicle using the arrow keys, and fire your laser
+cannons using the space bar.
+
+The two different types of stages have slightly different controls: the horde
+stage plays similarly to the original Space Invaders. Rows of aliens descend upon
+your ship, and you must defeat all of them before they reach you at the bottom.
+Movement in this mode is limited to the left and right arrow keys, as you must
+stay at the bottom to protect the people on the ground.
+The second mode is the boss battle. In this mode, you face only one enemy
+which fills up the top half of the screen. You must fire in specific spots
+multiple times to damage the boss.
+
+Specs
+The stage is always a static rectangle of space. No "stage progression" (eg
+Super Mario) occurs.
+The ship shoots bullets ("laser cannons").
+The player begins with 3 "lives".
+
+Horde Stage:
+Your ship stays on the bottom half of the screen and movement is
+limited to left and right. A horde of aliens assembles at the very top of the
+screen in a rectangular shape (i.e. a strict n by m grid) and zig-zags down from
+the top of the screen to the bottom a la Space Invaders. You lose if the bottommost
+row of aliens reaches the row which contains your ship. You win if you shoot
+all of the aliens.
+
+Boss Stage:
+Your ship is now free to move in four directions in the bottom half of the screen.
+Now, the top half is occupied by a stationary boss monster. The boss monster has
+several "weak spots" which will flash when they are able to be hit. At this point,
+you must shoot at the flashing spots. Successful hits will decrement the boss's
+health. The boss monster, instead of moving, will attack with laser beams of its
+own. It will shoot one beam vertically and one beam horizontally across the screen,
+forming a cross. You win if you successfully decrement the boss's health to 0, but
+you lose if you are hit by a laser beam.
